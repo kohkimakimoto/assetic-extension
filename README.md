@@ -6,7 +6,7 @@ My Assetic extension filters.
 
 ## List of Filters
 
- * `CoffeeScriptPHPFilter`: compiles CoffeeScript into Javascript using [coffeescript-php](https://github.com/alxlit/coffeescript-php)
+ * `CoffeeScriptPhpFilter`: compiles CoffeeScript into Javascript using [coffeescript-php](https://github.com/alxlit/coffeescript-php)
 
 ## Usage
 
