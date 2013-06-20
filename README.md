@@ -18,7 +18,7 @@ use Assetic\Asset\FileAsset;
 use Assetic\Filter\CoffeeScriptPhpFilter;
 
 $assetCollection = new AssetCollection();
-$assetCollection->add(new FileAsset("foo.coffee));
+$assetCollection->add(new FileAsset("foo.coffee"));
 $assetCollection->ensureFilter(new CoffeeScriptPhpFilter());
 
 echo $assetCollection->dump();
