@@ -1,6 +1,6 @@
 {
   "name": "kohkimakimoto/assetic-extension",
-  "description": "Assetic extention Filters.",
+  "description": "Assetic extention filters.",
   "keywords": ["assets"],
   "homepage": "https://github.com/kohkimakimoto/assetic-extension",
   "license": "MIT",
