@@ -8,3 +8,18 @@ My Assetic extension filters.
 
  * `CoffeeScriptPHPFilter`: compiles CoffeeScript into Javascript using [coffeescript-php](https://github.com/alxlit/coffeescript-php)
 
+## Usage
+
+``` php
+<?php
+
+use Assetic\Asset\AssetCollection;
+use Assetic\Asset\FileAsset;
+use Assetic\Filter\CoffeeScriptPhpFilter;
+
+$assetCollection = new AssetCollection();
+$assetCollection->add(new FileAsset("foo.coffee));
+$assetCollection->ensureFilter(new CoffeeScriptPhpFilter());
+
+echo $assetCollection->dump();
+```
