@@ -1,0 +1,24 @@
+{
+  "name": "kohkimakimoto/assetic-extension",
+  "description": "Assetic extention Filters.",
+  "keywords": ["assets"],
+  "homepage": "https://github.com/kohkimakimoto/assetic-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kohki Makimoto",
+      "email": "kohki.makimoto@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "kriswallsmith/assetic": "~1.1.1",
+    "coffeescript/coffeescript": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "3.*"
+  },
+  "autoload": {
+    "psr-0": { "Assetic": "src/" }
+  }
+}
