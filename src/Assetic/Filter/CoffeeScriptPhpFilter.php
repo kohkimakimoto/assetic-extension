@@ -3,7 +3,6 @@
 namespace Assetic\Filter;
 
 use Assetic\Asset\AssetInterface;
-use Assetic\Filter\FilterInterface;
 
 /*
  * This file is a derivative from [dlancea/CoffeePhpBundle]
@@ -20,13 +19,14 @@ use Assetic\Filter\FilterInterface;
  *
  * @author Kohki Makimtoo <kohki.makimoto@gmail.com>
  */
-class CoffeeScriptPhpFilter implements FilterInterface {
-
-  public function filterLoad(AssetInterface $asset) {
-
+class CoffeeScriptPhpFilter implements FilterInterface
+{
+  public function filterLoad(AssetInterface $asset)
+  {
   }
 
-  public function filterDump(AssetInterface $asset) {
+  public function filterDump(AssetInterface $asset)
+  {
     $content = $asset->getContent();
 
     try {
